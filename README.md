@@ -1,8 +1,9 @@
-Here's the clean version of your README without any extra commentary:
+qaaHere's the clean version of your README without any extra commentary:
 
 # Usable AF: A Web Accessibility Blog
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5fad9579-2941-4685-a602-6f452dc410f9/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)  
+
 [![GitHub Issues](https://img.shields.io/github/issues/your-repository-url)](https://github.com/your-repository-url/issues)  
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
