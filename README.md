@@ -1,7 +1,6 @@
 ![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)  
 ![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)  
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-
 ![Hugo](https://img.shields.io/badge/Made%20with-Hugo-ff4081)
 
 # Usable AF: A Web Accessibility Blog
