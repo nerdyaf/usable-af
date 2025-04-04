@@ -1,137 +1,164 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)
+# Usable AF: A Web Accessibility Blog
 
-[![hugo](https://user-images.githubusercontent.com/43764894/223559747-e9d7f19d-91bf-46a9-a0cb-8d6a40d3cfa3.png)](https://ntl.fyi/3P9w1mr)
+Welcome to **Usable AF**, a blog about web accessibility, inclusive design, and all the good stuff that makes the web better for everyone. Built with **Hugo** and deployed on **Netlify**, this blog is fast, simple, and fully accessible. No fluff, just practical tips and resources to help developers build more inclusive websites.
 
-# Hugo Quickstart Template   
-
-This is a bare-bones Hugo project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
-
-Hate reading, here's a video: https://youtu.be/t-tsRxxYdpk
-
-Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-app-quick/
-
-## Table of Contents:
-
-- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
-- [Regular Setup](#regular-setup)
-  - [Cloning + Install Packages](#1-cloning--install-packages)
-  - [Deploying](#2-deploying)
-- [Styling](#styling)
-  - [Notes on Styling](#notes-on-styling)
-  - [Remove Styling](#remove-styling)
-- [Hugo + Netlify Resources](#hugo--netlify-resources)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
-- [Want to learn more?](#want-to-learn-more)
-
-## Quick Setup + Deploy Option
-
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart)
-
-## Regular Setup
-
- ### 1. Cloning + Running Locally
-
-  - Clone this repo with one of these options:
-
-    - Click the 'Use this template' button at the top of the page
-    - Or via the command line `git clone https://github.com/netlify-templates/hugo-quickstart`
-
- - Start the Hugo sever & check it out:
-
-   - `hugo server -D`
-   - go to [http://localhost:1313/](http://localhost:1313/)
-
-  > Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
-
-  ### 2. Deploying
-  - Install the Netlify CLI globally `npm install netlify-cli -g`
-    
-  - Run `hugo`
-
-  - Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
-
-  Here are a few other ways you can deploy this template:
-    
-  - Use the Netlify CLI's create from template command `netlify sites:create-template hugo-quickstart` which will create a repo, Netlify project, and deploy it
-    
-  - If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
-
-## Styling
-
-We've added some modern styling to this template using Sass within an external stylesheet, this will allow you to easily remove our styling and add in your own. 
-
-If you decide that you want to keep our styling you can review our style notes below. 
-
-### Notes on Styling
-
-The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body. 
-
-```css
-// Controls the blob blur gradient colors within the main tag's svg
---top-right-blur-1: #2ebc92;
---top-right-blur-2: #ecbb50;
---bttm-left-blur-1: #ff3e89;
---bttm-left-blur-2: #0095cc;
-```
-
-## Remove Styling
-
-If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/hugo-quickstart/blob/main/themes/netlify-basic/static/css/demo-styling.css) file. 
-
-## Hugo + Netlify Resources
-
-Here are some resources to help you on your Hugo + Netlify coding fun!
-
-- [Hugo on Netlify Integration Page](https://ntl.fyi/3P9w1mr)
-
-
-Hope this template helps :) Happy coding 👩🏻‍💻!
+You can check out the live blog here: [https://usable-af.netlify.app/](https://usable-af.netlify.app/)
 
 ---
 
-## Testing
+## Features
 
-### Included Default Testing
+- **Accessibility First**: We focus on usability for all, including those with disabilities.
+- **Powered by Hugo**: Fast, static site generator—no slow load times here.
+- **Deployed on Netlify**: Easy hosting with automatic updates.
+- **Markdown-Based**: Write your posts in Markdown. It’s simple and flexible.
 
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
+---
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+## Getting Started
 
-If your team is not interested in this tooling, you can remove them with ease!
+### Local Development
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-repository-url.git
 
-### Removing Renovate
+2. Install Hugo:
 
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+macOS: brew install hugo
 
-### Removing Cypress
+Linux: sudo apt install hugo
 
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
+Windows: Download Hugo
 
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
 
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
 
-```bash
-npm uninstall -D netlify-plugin-cypress
-```
+3. Start the local server:
 
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
+hugo server
 
-```bash
-npm uninstall cypress
-```
+Your site will be live at http://localhost:1313/—no need to guess.
+
+
+
+
+---
+
+Deploying to Netlify
+
+1. Install the Netlify CLI:
+
+npm install -g netlify-cli
+
+
+2. Log in to Netlify:
+
+netlify login
+
+
+3. Initialize the site:
+
+netlify init
+
+
+4. Deploy:
+
+netlify deploy --prod
+
+
+
+Done. Your site is live. Easy.
+
+
+---
+
+Web Accessibility Tips
+
+We’re not here to waste your time. Here’s the deal:
+
+Color Contrast: Don’t make your site unreadable. Ensure a decent contrast ratio.
+
+Keyboard Navigation: If your site doesn’t work with just a keyboard, it’s broken.
+
+Alt Text: Screen readers need alt text. Don’t skip it.
+
+Semantic HTML: It’s not just for SEO—it makes your site work better for everyone.
+
+
+
+---
+
+Tools We Recommend
+
+If you care about accessibility, use the right tools:
+
+WAVE: Quick checks for accessibility issues.
+
+Lighthouse: Google’s tool to audit performance, accessibility, and more.
+
+axe: Automated testing for accessibility issues in your browser.
+
+
+
+---
+
+Why Accessibility Matters
+
+Accessibility isn’t optional. It’s a basic part of building a site that works for everyone, regardless of ability. It's also good for your users, your SEO, and your reputation. So just do it.
+
+
+---
+
+Fully Compliant with Accessibility Standards
+
+This blog isn’t just pretty—it's built to meet current accessibility standards. Here’s how:
+
+Semantic HTML: No hacks. Proper tags and structure for screen readers.
+
+Keyboard Navigation: Your site must work without a mouse. Test it.
+
+Color Contrast: Meets WCAG standards so it’s readable by everyone.
+
+Alt Text: Every image has alt text. No exceptions.
+
+ARIA Landmarks: ARIA roles are used where appropriate for better assistive tech support.
+
+Responsive: It looks good on mobile, tablet, and desktop.
+
+
+You can clone this blog and use it as a starting point for your own accessible project. It’s already built with best practices in mind—just plug in your content.
+
+
+---
+
+Join the Conversation
+
+Questions? Suggestions? Found a bug? Open an issue, start a discussion, or hit us up on social media. We’re all in this together.
+
+
+---
+
+Contact Information
+
+If you need to reach out to the Usable AF team, here’s how:
+
+Email: contact@usable-af.com
+
+Twitter: @usable_af
+
+GitHub: https://github.com/your-repository-url
+
+
+Feel free to drop us a message or connect with us on social media. We’re here to help!
+
+
+---
+
+License
+
+This project is MIT licensed—check the LICENSE file for details.
+
+
+---
+
+Thanks for stopping by Usable AF. Let’s make the web usable for everyone—no excuses. Check out the live site: https://usable-af.netlify.app/
+
