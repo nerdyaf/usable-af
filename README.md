@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)
+
 [![hugo](https://user-images.githubusercontent.com/43764894/223559747-e9d7f19d-91bf-46a9-a0cb-8d6a40d3cfa3.png)](https://ntl.fyi/3P9w1mr)
 
 # Hugo Quickstart Template   
