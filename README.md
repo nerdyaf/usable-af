@@ -1,8 +1,9 @@
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)
 qq
 # Usable AF: A Web Accessibility Blog
 **Tagline**: Making the web work for everyone—no excuses. 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5fad9579-2941-4685-a602-6f452dc410f9/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)  
 [![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)](https://github.com/usable-af/usable-af/issues)  
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
