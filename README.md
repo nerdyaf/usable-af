@@ -1,11 +1,11 @@
+To move the badges to the top of the document, you can place them right after the first heading (# Usable AF: A Web Accessibility Blog). Here’s the updated version with the badges at the top:
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)
-qq
-# Usable AF: A Web Accessibility Blog
-**Tagline**: Making the web work for everyone—no excuses. 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)  
 [![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)](https://github.com/usable-af/usable-af/issues)  
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+# Usable AF: A Web Accessibility Blog
+**Tagline**: Making the web work for everyone—no excuses. 
 
 Welcome to **Usable AF**, a blog about web accessibility, inclusive design, and the practices that make the web better for everyone. Built with **Hugo** and deployed on **Netlify**, this blog is fast, simple, and fully accessible. No fluff, just practical tips and resources to help developers build more inclusive websites. 🚀
 
@@ -25,45 +25,41 @@ Check out the live blog here: [https://usable-af.netlify.app](https://usable-af.
 ## Getting Started 🛠️
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/usable-af/usable-af.git
-   ```
+
+git clone https://github.com/usable-af/usable-af.git
 
 2. Install Hugo:
-   - macOS: `brew install hugo`
-   - Linux: `sudo apt install hugo`
-   - Windows: Download Hugo from [the official Hugo website](https://gohugo.io/getting-started/installing)
+- macOS: `brew install hugo`
+- Linux: `sudo apt install hugo`
+- Windows: Download Hugo from [the official Hugo website](https://gohugo.io/getting-started/installing)
 
 3. Start the local server:
-   ```
-   hugo server
-   ```
-   Your site will be live at [http://localhost:1313/](http://localhost:1313/). 🌐
+
+hugo server
+
+Your site will be live at [http://localhost:1313/](http://localhost:1313/). 🌐
 
 ---
 
 ## Deploying to Netlify 🌐
 
 1. Install the Netlify CLI:
-   ```
-   npm install -g netlify-cli
-   ```
+
+npm install -g netlify-cli
 
 2. Log in to Netlify:
-   ```
-   netlify login
-   ```
+
+netlify login
 
 3. Initialize the site:
-   ```
-   netlify init
-   ```
+
+netlify init
 
 4. Deploy:
-   ```
-   netlify deploy --prod
-   ```
-   Your site will be live on Netlify. 🎉
+
+netlify deploy --prod
+
+Your site will be live on Netlify. 🎉
 
 ---
 
@@ -129,5 +125,4 @@ This project is MIT licensed—check the LICENSE file for details.
 ---
 
 Thanks for stopping by Usable AF. Let’s make the web usable for everyone—no excuses.
-```
 
