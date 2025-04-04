@@ -1,4 +1,4 @@
-To move the badges to the top of the document, you can place them right after the first heading (# Usable AF: A Web Accessibility Blog). Here’s the updated version with the badges at the top:
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/607b481e-c71c-4c35-b670-7e5a4683c56c/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)  
 [![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)](https://github.com/usable-af/usable-af/issues)  
