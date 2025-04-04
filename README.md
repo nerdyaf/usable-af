@@ -2,6 +2,8 @@
 ![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)  
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+![Hugo](https://img.shields.io/badge/Made%20with-Hugo-ff4081)
+
 # Usable AF: A Web Accessibility Blog
 
 ### *Making the web work for everyone—no excuses.*
