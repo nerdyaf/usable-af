@@ -6,7 +6,7 @@
 
 # Usable AF: A Web Accessibility Blog
 
-#### Making the web work for everyone—no excuses. 
+### Making the web work for everyone—no excuses. 
 
 Welcome to **Usable AF**, a blog about web accessibility, inclusive design, and the practices that make the web better for everyone. Built with **Hugo** and deployed on **Netlify**, this blog is fast, simple, and fully accessible. No fluff, just practical tips and resources to help developers build more inclusive websites. 🚀
 
