@@ -1,11 +1,10 @@
-
+qq
 # Usable AF: A Web Accessibility Blog
+**Tagline**: Making the web work for everyone—no excuses. 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5fad9579-2941-4685-a602-6f452dc410f9/deploy-status?branch=main)](https://app.netlify.com/sites/usable-af/deploys)  
 [![GitHub Issues](https://img.shields.io/github/issues/usable-af/usable-af)](https://github.com/usable-af/usable-af/issues)  
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-**Tagline**: Making the web work for everyone—no excuses. 🌍
 
 Welcome to **Usable AF**, a blog about web accessibility, inclusive design, and the practices that make the web better for everyone. Built with **Hugo** and deployed on **Netlify**, this blog is fast, simple, and fully accessible. No fluff, just practical tips and resources to help developers build more inclusive websites. 🚀
 
